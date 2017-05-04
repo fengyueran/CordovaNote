@@ -20,3 +20,8 @@
    <param name="onload" value="true" />
 </feature>
 ```
+- remote-injection插件
+```
+<plugin name="cordova-plugin-remote-injection" />
+```
+
