@@ -9,7 +9,10 @@
 ```
 <plugin name="cordova-plugin-remote-injection" />
 ```
-
+- 去除web的交互(长按复制,放大镜等)
+```
+<plugin name="cordova-plugin-remote-injection" />
+``
 #####2.常用插件
 - splash插件
 ```
