@@ -78,3 +78,7 @@ cordova plugin add pluginName -save ->会在根目录配置文件中保存插件
 <!-- 直接命令创建的ios工程用的是webview，通过添加插件来改为wkwebview/> -->
 <plugin name="cordova-plugin-wkwebview-engine" />
 ```
+#####4.Pod的使用
+要在cordova工程中使用pod必须先把工程配置设置为none再在ios工程目录下运行pod install，如下：
+![](/assets/pic1.gif)
+
