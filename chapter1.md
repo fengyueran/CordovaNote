@@ -90,8 +90,12 @@ cordova plugin add pluginName -save ->会在根目录配置文件中保存插件
 ```
 brew install imagemagick
 npm install cordova-splash -g
+//将splash图片放到cordova工程跟目录下运行
+cordova-splash
 ```
 - icon图片生成工具
 ```
 npm install cordova-icon -g
+//将icon图片放到cordova工程跟目录下运
+cordova-icon
 ```
