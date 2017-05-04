@@ -84,3 +84,14 @@ cordova plugin add pluginName -save ->会在根目录配置文件中保存插件
 还需要在Header Search Paths添加"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include"，否则Archive会出错，如下：
 ![](/assets/pic2.gif)
 
+
+#####5.辅助工具
+- splash图片生成工具
+```
+brew install imagemagick
+npm install cordova-splash -g
+```
+- icon图片生成工具
+```
+npm install cordova-icon -g
+```
