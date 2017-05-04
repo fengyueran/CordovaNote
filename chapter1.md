@@ -78,6 +78,12 @@ cordova plugin add pluginName -save ->会在根目录配置文件中保存插件
 <!-- 直接命令创建的ios工程用的是webview，通过添加插件来改为wkwebview/> -->
 <plugin name="cordova-plugin-wkwebview-engine" />
 ```
+- ios-launch-screen插件
+```
+//解决ipadPro识别为iphone的bug,在插件目录res/Default@3x~universal.png替换为自己的启动图片(必须同名且为png格式)
+<plugin name="cordova-plugin-ios-launch-screen" spec="https://github.com/kerrishotts/cordova-plugin-ios-launch-screen" />
+```
+
 #####4.Pod的使用
 要在cordova工程中使用pod必须先把工程配置设置为none再在ios工程目录下运行pod install，如下：
 ![](/assets/pic1.gif)
