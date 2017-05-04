@@ -40,6 +40,7 @@
 ```
 - remote-injection插件
 ```
+<!-- 远程注入代码插件，插件的js都会自动注入到远程src/> -->
 <plugin name="cordova-plugin-remote-injection" />
 ```
 - wkwebview-engine插件
