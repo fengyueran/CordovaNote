@@ -23,6 +23,7 @@
 
 ```
 <content src="http://10.10.0.5:3000/index.html"/>
+<!-- 设置访问权限，*代表可以访问任何src/> -->
 <allow-navigation hap-rule="yes" href="*"/>
 ```
 
