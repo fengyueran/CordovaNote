@@ -81,4 +81,6 @@ cordova plugin add pluginName -save ->会在根目录配置文件中保存插件
 #####4.Pod的使用
 要在cordova工程中使用pod必须先把工程配置设置为none再在ios工程目录下运行pod install，如下：
 ![](/assets/pic1.gif)
+还需要在Header Search Paths添加"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include"，否则Archive会出错，如下：
+![](/assets/pic2.gif)
 
