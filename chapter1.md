@@ -70,6 +70,8 @@ cordova plugin add pluginName -save ->会在根目录配置文件中保存插件
 ```
 <!-- 远程注入代码插件，插件的js都会自动注入到远程src/> -->
 <plugin name="cordova-plugin-remote-injection" />
+<!--将www/js/cordova.js注入到远程src/> -->
+  <preference name="CRIInjectFirstFiles" value="www/js/cordova.js" />
 ```
 - wkwebview-engine插件
 ```
