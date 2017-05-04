@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.curacloud.fm">
+  <name>FileManager</name>
+  <js-module src="www/fileManager.js" name="fileManager">
+    <clobbers target="FileManager" />
+  </js-module>
+
+  <platform name="ios">
+
+    <config-file target="config.xml" parent="/widget">
+      <feature name="FileManager">
+        <param name="ios-package" value="FileManager" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/FileManager.h" target-dir="FileManagerPlugin"/>
+    <header-file src="src/ios/DownloadManager.h" target-dir="FileManagerPlugin"/>
+    <source-file src="src/ios/FileManager.m" target-dir="FileManagerPlugin"/>
+    <source-file src="src/ios/DownloadManager.m" target-dir="FileManagerPlugin"/>
+    <header-file src="src/ios/MediaGroup.h" target-dir="FileManagerPlugin"/>
+    <header-file src="src/ios/MediaInfo.h" target-dir="FileManagerPlugin"/>
+    <source-file src="src/ios/MediaGroup.m" target-dir="FileManagerPlugin"/>
+    <source-file src="src/ios/MediaInfo.m" target-dir="FileManagerPlugin"/>
+  </platform>
+
+</plugin>
