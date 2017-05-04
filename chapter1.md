@@ -1,4 +1,4 @@
-#Cordova常用配置
+#Cordova常见问题
 
 #####1.常用配置
 - webview设置格外滚动范围为0
