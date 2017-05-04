@@ -16,7 +16,7 @@
 
 ```
 <plugin name="cordova-plugin-splashscreen" spec="~3.2.2" />
-
+<!-- 解决splash出现白色闪一下的bug/> -->
 <feature name="SplashScreen">
    <param name="ios-package" value="CDVSplashScreen" />
    <param name="onload" value="true" />
