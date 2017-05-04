@@ -20,14 +20,14 @@
 ```
 
 - 设置跳转地址
+
 ```
-	<content src="http://10.10.0.5:3000/index.html"/>
-	
-    
-	<allow-navigation hap-rule="yes" href="*"/>
+<content src="http://10.10.0.5:3000/index.html"/>
+<allow-navigation hap-rule="yes" href="*"/>
 ```
 
 #####2.常用插件
+
 - splash插件
 ```
 <plugin name="cordova-plugin-splashscreen" spec="~3.2.2" />
