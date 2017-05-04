@@ -42,7 +42,8 @@
 ```
 <plugin name="cordova-plugin-remote-injection" />
 ```
-- remote-injection插件
+- wkwebview-engine插件
 ```
-<plugin name="cordova-plugin-remote-injection" />
-
+<!-- 直接命令创建的ios工程用的是webview，通过添加插件来改为wkwebview/> -->
+<plugin name="cordova-plugin-wkwebview-engine" />
+```
