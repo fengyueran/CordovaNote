@@ -17,8 +17,8 @@
 ```
 <plugin name="cordova-plugin-splashscreen" spec="~3.2.2" />
 
-    <feature name="SplashScreen">
-        <param name="ios-package" value="CDVSplashScreen" />
-        <param name="onload" value="true" />
-    </feature>
+<feature name="SplashScreen">
+   <param name="ios-package" value="CDVSplashScreen" />
+   <param name="onload" value="true" />
+</feature>
 ```
