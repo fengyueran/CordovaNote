@@ -27,6 +27,7 @@ cordova plugin remove pluginName ->移除所有平台相关插件
 ```
 cordova plugin add pluginName -save ->会在根目录配置文件中保存插件信息，配置文件中若包含插件信息，在进行命令2新建平台时会自动安装相应插件。
 ```
+
 #####2.常用配置
 - webview设置格外滚动范围为0
 ```
