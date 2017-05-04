@@ -11,8 +11,13 @@
 ```
 - 去除web的交互(长按复制,放大镜等)
 ```
-<plugin name="cordova-plugin-remote-injection" />
-``
+<style type="text/css">
+ *:not(input,textarea) {
+     -webkit-user-select: none; /* Disable selection/Copy of UIWebView */
+     -webkit-touch-callout: none;
+ }
+ </style>
+```
 #####2.常用插件
 - splash插件
 ```
