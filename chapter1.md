@@ -96,6 +96,6 @@ cordova-splash
 - icon图片生成工具
 ```
 npm install cordova-icon -g
-//将icon图片放到cordova工程跟目录下运
+//将icon图片放到cordova工程跟目录下运行
 cordova-icon
 ```
