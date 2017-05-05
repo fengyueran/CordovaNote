@@ -54,6 +54,11 @@ cordova plugin add pluginName -save ->会在根目录配置文件中保存插件
 <!-- 设置访问权限，*代表可以访问任何src/> -->
 <allow-navigation hap-rule="yes" href="*"/>
 ```
+- 网页快速滚动和回弹的效果
+```
+//在css中加入
+-webkit-overflow-scrolling: touch;
+```
 
 #####3.常用插件
 
